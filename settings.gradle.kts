@@ -36,7 +36,7 @@ fun VersionCatalogBuilder.spring() {
 }
 
 fun VersionCatalogBuilder.voice() {
-    version("lavaplayer", "5cbaa001b1")
+    version("lavaplayer", "f3ebd4a944")
 
     library("lavaplayer",            "com.github.Mantouisyummy.lavaplayer", "lavaplayer").versionRef("lavaplayer")
     library("lavaplayer-ip-rotator", "dev.arbjerg", "lavaplayer-ext-youtube-rotator").version("2.1.1")
